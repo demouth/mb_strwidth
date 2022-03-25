@@ -6,8 +6,14 @@ mb_strwidth ported to JavaScript.
 
 ## Installation
 
+Using npm:
 ```sh
 npm install @demouth/mb_strwidth
+```
+
+Using unpkg CDN:
+```html
+<script src="https://unpkg.com/@demouth/mb_strwidth@1.0.0/dist/mb_strwidth.min.js"></script>
 ```
 
 ## Examples
