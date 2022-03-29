@@ -42,7 +42,9 @@ export default [
       }
     ],
     plugins: [
-      pluginTypescript(),
+      pluginTypescript({
+        tsconfig: './tsconfig.json'
+      }),
       pluginCommonjs({
         extensions: ['.js', '.ts'],
       }),
@@ -73,7 +75,9 @@ export default [
       ...Object.keys(pkg.devDependencies || {}),
     ],
     plugins: [
-      pluginTypescript(),
+      pluginTypescript({
+        tsconfig: './tsconfig.json'
+      }),
       pluginCommonjs({
         extensions: ['.js', '.ts'],
       }),
@@ -104,7 +108,9 @@ export default [
       ...Object.keys(pkg.devDependencies || {}),
     ],
     plugins: [
-      pluginTypescript(),
+      pluginTypescript({
+        tsconfig: './tsconfig.json'
+      }),
       pluginCommonjs({
         extensions: ['.js', '.ts'],
       }),

@@ -1,9 +1,10 @@
 {
   "name": "@demouth/mb_strwidth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "browser": "dist/mb_strwidth.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:demouth/mb_strwidth.git",
   "author": "demouth <yuya@demouth.net>",
   "license": "MIT",
