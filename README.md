@@ -2,6 +2,10 @@
 
 mb_strwidth ported to JavaScript.
 
+Calculates the width of a string, where halfwidth characters count as 1, and fullwidth characters count as 2.
+See » http://www.unicode.org/reports/tr11/ for details regarding East Asian character widths.
+
+
 [![CircleCI](https://circleci.com/gh/demouth/mb_strwidth/tree/main.svg?style=svg)](https://circleci.com/gh/demouth/mb_strwidth/tree/main)
 
 ## Installation
