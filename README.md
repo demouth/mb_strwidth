@@ -17,7 +17,7 @@ npm install @demouth/mb_strwidth
 
 Using unpkg CDN:
 ```html
-<script src="https://unpkg.com/@demouth/mb_strwidth@1.1.1/dist/mb_strwidth.min.js"></script>
+<script src="https://unpkg.com/@demouth/mb_strwidth@2.0.1/dist/mb_strwidth.min.js"></script>
 ```
 
 ## Examples
@@ -38,7 +38,7 @@ console.log(mb_strwidth("𩸽定食食べたい😭")); // 15
 
 Browser:
 ```html
-<script src="https://unpkg.com/@demouth/mb_strwidth@1.1.1/dist/mb_strwidth.min.js"></script>
+<script src="https://unpkg.com/@demouth/mb_strwidth@2.0.1/dist/mb_strwidth.min.js"></script>
 <script>
   console.log(mb_strwidth("𩸽定食食べたい😭")); // 15
 </script>
