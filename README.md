@@ -17,19 +17,35 @@ npm install @demouth/mb_strwidth
 
 Using unpkg CDN:
 ```html
-<script src="https://unpkg.com/@demouth/mb_strwidth@1.0.0/dist/mb_strwidth.min.js"></script>
+<script src="https://unpkg.com/@demouth/mb_strwidth@1.1.1/dist/mb_strwidth.min.js"></script>
 ```
 
 ## Examples
 
 This package has the same result as `mb_strwidth()` in PHP.
 
+ES Module:
 ```js
-console.log(mb_strwidth('𩸽定食食べたい😭')); // 15
+import { mb_strwidth } from "@demouth/mb_strwidth";
+console.log(mb_strwidth("𠮷野家")); // 6
 ```
 
+CommonJS:
+```js
+const { mb_strwidth } = require("@demouth/mb_strwidth");
+console.log(mb_strwidth("𩸽定食食べたい😭")); // 15
+```
+
+Browser:
+```html
+<script src="https://unpkg.com/@demouth/mb_strwidth@1.1.1/dist/mb_strwidth.min.js"></script>
+<script>
+  console.log(mb_strwidth("𩸽定食食べたい😭")); // 15
+</script>
+```
+
+Reference(PHP 7.3.28):
 ```php
-// PHP 7.3.28
 var_dump(mb_strwidth('𩸽定食食べたい😭')); // int(15)
 ```
 

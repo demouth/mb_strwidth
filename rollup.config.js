@@ -9,6 +9,7 @@ import pkg from './package.json';
 
 const moduleName = pkg.name.replace(/^@.*\//, '');
 const inputFileName = 'src/index.ts';
+const inputFileNameForBrowser = 'src/mb_strwidth.ts';
 
 const banner = `/**
  * @license
@@ -19,7 +20,7 @@ const banner = `/**
 export default [
   // browser
   {
-    input: inputFileName,
+    input: inputFileNameForBrowser,
     output: [
       // uncompressed
       {
@@ -100,7 +101,7 @@ export default [
         format: 'cjs',
         sourcemap: 'inline',
         banner,
-        exports: 'default',
+        exports: 'named',
       },
     ],
     external: [
