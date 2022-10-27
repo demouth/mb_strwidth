@@ -1,6 +1,6 @@
 {
   "name": "@demouth/mb_strwidth",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Calculates the width of a string, where halfwidth characters count as 1, and fullwidth characters count as 2.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
