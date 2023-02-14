@@ -17,7 +17,7 @@ npm install @demouth/mb_strwidth
 
 Using unpkg CDN:
 ```html
-<script src="https://unpkg.com/@demouth/mb_strwidth@2.0.2/dist/mb_strwidth.min.js"></script>
+<script src="https://unpkg.com/@demouth/mb_strwidth@2.0.3/dist/mb_strwidth.min.js"></script>
 ```
 
 ## Examples
