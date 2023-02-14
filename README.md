@@ -38,7 +38,7 @@ console.log(mb_strwidth("𩸽定食食べたい😭")); // 15
 
 Browser:
 ```html
-<script src="https://unpkg.com/@demouth/mb_strwidth@2.0.2/dist/mb_strwidth.min.js"></script>
+<script src="https://unpkg.com/@demouth/mb_strwidth@2.0.3/dist/mb_strwidth.min.js"></script>
 <script>
   console.log(mb_strwidth("𩸽定食食べたい😭")); // 15
 </script>
